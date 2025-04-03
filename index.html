@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/8597dc927e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-full">
+      <!-- Title -->
+      <header class="title-reg">
+        <h1>Student Registration System</h1>
+      </header>
+      <!-- Left Container  -->
+      <div class="left-container">
+        <div>
+          <form class="students-details-from" action="">
+            <label for="name">Student Name :</label><br />
+            <!-- <input type="text" id="username" name="username" required> -->
+            <input class="s-name"  type="text" name="name"  placeholder="Student Name" required><br />
+            <label for="id">Student ID :</label><br />
+            <input class="s-id" type="text" name="id" placeholder="Student ID" required><br />
+            <label for="class">Class :</label><br />
+            <input class="s-class" type="text" name="class" placeholder="Class"  required><br />
+            <label for="roolNO">Roll No. :</label><br />
+            <input class="s-rollNO" type="text" name="rollNo" placeholder="Roll No" required><br />
+            
+          </form>
+          
+        </div>
+        <div>
+            <button class="add-btn">Add</button>
+        </div>
+      </div>
+
+
+      
+      <!-- Right Container -->
+      <div class="right-container">
+        <section class="section-details">
+            <div class="students-details-data">
+                <ul>
+                    <li><b>Name</b></li>
+                    <li><b>ID</b></li>
+                    <li><b>Class</b></li>
+                    <li><b>Roll No.</b></li>
+                </ul>
+            </div>
+
+
+            <div class="new-div-class" id="new-div-id">
+
+            </div>
+          </div>
+        </section>
+        
+    </div>
+  </body>
+</html>
+
+
+/*
+echo "# domAssignmentIS" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sadique567/domAssignmentIS.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/sadique567/domAssignmentIS.git
+git branch -M main
+git push -u origin main
+
+*/
