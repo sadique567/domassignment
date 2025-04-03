@@ -61,7 +61,7 @@ function updateLocalStorage() {
 
 add_btn.addEventListener("click", function addItem() {
   if (!s_name.value || !s_id.value || !s_class.value || !s_roll.value) {
-    alert("Please fill all fields!");
+    // alert("Please fill all fields!");
     return;
   }
 
