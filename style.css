@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-full {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .title-reg {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    /* background-color: white; */
+    z-index: 10;
+  }
+  
+  .left-container, .right-container {
+    width: 50%;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-225deg, rgb(247, 73, 73), rgba(255,0,0,0), #2575fc);
+    background-color: #f7f7f7;
+  }
+  
+   label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    /* margin-bottom: 5px; */
+  }
+  
+ input {
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 5px;
+    /* margin-bottom: 15px; */
+    border: 1px solid #ccc;
+    /* width: 100%; */
+  }
+  
+  .add-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .add-btn:hover {
+    background-color: darkred;
+  }
+  
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(225deg, #2575fc, rgb(247, 73, 73), rgba(255,0,0,0));
+    background-color: #f7f7f7;
+  }
+  
+  .section-details {
+    width: 75%;
+    max-height: 50vh;
+    margin-left: 50px;
+    overflow-y: auto;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .students-details-data ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid black;
+  }
+  
+  .students-details-data ul li {
+    font-size: 18px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .dlt-btn-class {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dlt-btn-class:hover {
+    background-color: darkblue;
+  }
+  
+  .edit-btn-class {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn-class:hover {
+    background-color: #45a049;
+  }
+  
+  .section-details::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .section-details::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+  }
